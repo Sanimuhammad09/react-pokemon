@@ -1,0 +1,47 @@
+.moves {
+  width: 100%;
+}
+.move-container {
+  padding-top: 20px;
+}
+.move-container .top-move {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-move button {
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.main-move {
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 35px;
+  margin: auto;
+}
+.move-card {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(2, 2, 29);
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.move-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}

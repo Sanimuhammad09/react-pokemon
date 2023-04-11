@@ -1,0 +1,24 @@
+.base_container {
+  width: 100%;
+}
+.base_container .base {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 30px 0px;
+  text-transform: uppercase;
+  font-weight: 550;
+}
+.base span {
+  flex: 1;
+}
+.base .progress {
+  flex: 3;
+  height: 10px;
+  background-color: lightgrey;
+  border-radius: 5px;
+}
+.progress .bar {
+  height: 10px;
+  border-radius: 5px;
+}

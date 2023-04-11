@@ -1,0 +1,13 @@
+.about {
+  padding: 20px;
+  margin-top: 45px;
+  border-radius: 10px;
+}
+.about .title {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.about .base-info span {
+  margin: 0px 20px;
+}

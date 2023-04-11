@@ -1,0 +1,101 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+h1 {
+  text-align: center;
+}
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+.search input {
+  width: 600px;
+  height: 50px;
+  border: none;
+  border-bottom: 2px solid grey;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.search input:focus {
+  outline: none;
+}
+.search button {
+  width: 80px;
+  height: 50px;
+  background-color: rgb(3, 5, 26);
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.content-container .search-container {
+  width: 70vw;
+  height: 100vh;
+  background-color: rgb(213, 213, 238);
+  margin: auto;
+  position: absolute;
+  left: 15%;
+  z-index: 10;
+}
+.content {
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.content .cancel-search{
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: red;
+  color: grey;
+  font-weight: 600;
+  font-size: 2rem;
+  top: 35%;
+  left: 67%;
+  border-radius: 50%;
+  cursor: pointer;
+  /* border: none; */
+  border: 1px solid grey;
+  background-color: white;
+}
+.content .cancel-search:hover{
+  color: black;
+  border: 1px solid black;
+}
+.page-controls {
+  margin: 20px auto;
+  width: 70%;
+  height: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.page-controls span {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(3, 5, 26);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.page-controls span:hover {
+  color: rgb(3, 5, 26);
+  background-color: white;
+  border: 1px solid rgb(3, 5, 26);
+}

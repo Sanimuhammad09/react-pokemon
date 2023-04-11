@@ -1,0 +1,118 @@
+.single-container {
+  width: 100vw;
+  height: auto;
+  background-color: rgb(3, 1, 26);
+}
+.top-section {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.top-section img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.top-section h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.top-section span {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(161, 159, 159);
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.main-section {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.main-section img {
+  width: 500px;
+  height: 600px;
+  object-fit: cover;
+}
+.main-section .poke-info h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.main-section .poke-info h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.main-section .ability {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.ability span {
+  padding: 5px 20px;
+  border: 2px solid green;
+  color: green;
+  border-radius: 15px;
+  font-size: 1.3rem;
+  font-weight: 530;
+}
+.ability span:nth-child(2) {
+  border: 2px solid purple;
+  color: purple;
+}
+/* .ability span:hover {
+  background-color: green;
+  color: white;
+} */
+/* .ability span:nth-child(2):hover {
+  background-color: purple;
+  color: white;
+} */
+/* ----------------Bottom Section---------------- */
+.bottom-section {
+  width: 80%;
+  margin: 50px auto;
+  border-radius: 20px 20px 0px 0px;
+  background-color: white;
+  padding: 40px 0px;
+}
+.bottom-section .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: grey;
+  cursor: pointer;
+  height: 70px;
+}
+.bottom-section .title h1 {
+  height: 60px;
+}
+.bottom-section .title h1:hover {
+  border-bottom: 5px solid grey;
+}
+/* .bottom-section .title h1:active {
+  color: red;
+} */
+.active {
+  color: purple;
+}
+.bottom-section .info {
+  width: 70%;
+  margin: auto;
+  padding: 30px;
+  font-size: 1.5rem;
+}
