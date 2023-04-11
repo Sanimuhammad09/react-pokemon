@@ -51,7 +51,8 @@ function Home() {
 
   useEffect(() => {
     getPokemon_info()
-  }, [url])
+  },);
+
   return (
     <div>
       <div className="container">
